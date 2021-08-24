@@ -1,0 +1,161 @@
+body {
+    font-family: 'Lora', serif;
+     background: linear-gradient(45deg, 	#F5F5F5, 	#F5F5F5,	#F5F5F5, 	#D0D0D0, 	#C0C0C0,	#B0B0B0,	#A0A0A0);
+   }
+   #header-img{
+     
+    width:60%;
+     height:60%;
+     margin-left:10px;
+     margin-top:10px;
+   }
+   #header{
+     
+     display:flex;
+     flex-direction: row;
+     justify-content: space-between;
+     background-color:	rgba(248,248,248,0.4);
+     
+     width:100%;
+     top:0;
+     position: fixed;
+   }
+   
+   ul {
+       list-style-type: none;
+       margin-left:;
+       padding: 0;
+       overflow: hidden;
+       
+   }
+   li {
+       float: left;
+   }
+   
+   li a {
+       display: block;
+       color: black;
+       text-align: center;
+       padding: 16px;
+       text-decoration: none;
+      font-weight:bold;
+   }
+   #nav-bar{
+     margin-right:5%;
+   }
+   
+   #more-product{
+     
+     text-align: ;
+     margin-top: 190px;
+   }
+   #how-it-wear{
+     
+     text-align:center;
+   }
+   
+   .grid{
+     max-width:100%;
+     display:grid;
+     grid-template-columns:20% 80%;
+     margin:0 5% 0 5%;
+   
+     
+   }
+   .icon{
+     text-align: right;
+     padding-right: 30%;
+     padding-top: 8%;
+   }
+   
+   .grid2{
+     
+     display:grid;
+     grid-template-columns:30% 30% 30%;
+     margin-left:5%;
+     margin-top: 10%;
+   }
+   
+   .box{
+     max-width:100%;
+     border-style:groove;
+     height: 300px;
+    text-align:center;
+     margin:3%;
+     
+   }
+   .h1-box{
+     
+     background-color:#dddddd;
+     height:10%;
+     padding:2%;
+     font-size: 16px;
+   }
+   .doller{
+     margin-top:10%;
+     font-size:22px;
+   }
+   .text{
+     line-height:2rem;
+   }
+   .btn{
+     height:10%;
+    color:green;
+     
+     margin-top:10%;
+   }
+   #how-it-wear{
+     margin-top:5%;
+   }
+   
+   @media screen and (max-width: 480px){
+     
+     #more-product{
+     
+     text-align: center;
+     margin-top: 220px;
+   }
+     
+   }
+   .icon{
+     color:green;
+   }
+   
+   .foot{
+     
+     background-color:#dddddd;
+     text-align:center;
+     padding:2%;
+   }
+   
+   #email{
+     
+     height:2rem;
+     width:15rem;
+     border-left: 5px solid #31ff00;
+     background-color: #e7e6e6;
+     border-bottom:0;
+     border-right:0;
+     border-top:0;
+   }
+   #submit{
+     height:2.2rem;
+     width:6rem;
+     font-size:16px;
+    margin-left:-3px;
+    background-color:forestgreen;
+     border:0;
+     color:black;
+     margin-top:2%;
+     border-radius:5%;
+     
+   }
+   div ul img {
+     text-Align:center;
+     display: block;
+     width: 15em;
+     padding: 10px 10px 10px 5em;
+     margin-left: auto;
+     margin-right: auto;
+     justify-content: space-between
+   }
